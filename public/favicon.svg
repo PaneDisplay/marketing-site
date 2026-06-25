@@ -1,0 +1,13 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- PANE display glyph: the screen frame (forever) with its panel inside -->
+<style>
+.frame { stroke: #3f3f46; }
+.panel { fill: #18181b; }
+@media (prefers-color-scheme: dark) {
+.frame { stroke: #52525b; }
+.panel { fill: #e4e4e7; }
+}
+</style>
+<rect class="frame" x="4" y="4" width="24" height="24" rx="6" fill="none" stroke-width="2.5"/>
+<rect class="panel" x="11" y="12" width="10" height="8" rx="1.5"/>
+</svg>
