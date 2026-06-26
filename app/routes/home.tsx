@@ -89,12 +89,12 @@ function Hero() {
             No mandatory account. No built-in ads.
           </p>
           <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center">
-            <a
-              href="#waitlist"
+            <Link
+              to="/waitlist"
               className="inline-flex items-center justify-center rounded-full bg-white px-7 py-3.5 text-sm font-medium text-black transition-colors hover:bg-zinc-200"
             >
               Join the Waitlist
-            </a>
+            </Link>
             <Link
               to="/ecosystem"
               className="inline-flex items-center justify-center rounded-full border border-zinc-700 px-7 py-3.5 text-sm font-medium text-zinc-200 transition-colors hover:border-zinc-500 hover:text-white"
@@ -107,12 +107,8 @@ function Hero() {
         {/* Hero product render */}
         <div className="mt-16 animate-fade-up overflow-hidden rounded-2xl border border-[var(--color-line)] bg-[var(--color-surface)]">
           <img
-            src={placeholder(
-              2400,
-              1200,
-              "HERO RENDER — modular display floating in profile, machined aluminum edge, magnetic speaker bar attached, dark studio lighting",
-            )}
-            alt="Modular PANE display photographed in profile as an object of design, with a magnetic speaker bar attached and machined aluminum detailing."
+            src="/assets/tv-in-living-room.png"
+            alt="A PANE modular display mounted in a living room."
             className="block w-full"
             loading="eager"
           />
@@ -232,12 +228,8 @@ function Product() {
           {/* Exploded view diagram */}
           <div className="overflow-hidden rounded-2xl border border-[var(--color-line)] bg-[var(--color-surface)]">
             <img
-              src={placeholder(
-                1200,
-                1400,
-                "EXPLODED VIEW — technical diagram of display panel, aluminum chassis, magnetic speaker module and detachable brain, labeled engineering callouts",
-              )}
-              alt="Exploded technical diagram of the PANE display showing the panel, machined aluminum chassis, magnetic speaker module, and detachable streaming brain with engineering callouts."
+              src="/assets/exploded-view-tv.png"
+              alt="Exploded view of the PANE display showing the panel, machined aluminum chassis, magnetic speaker module, and detachable streaming brain."
               className="block w-full"
               loading="lazy"
             />
@@ -253,8 +245,8 @@ function Philosophy() {
     <section id="philosophy" className="border-b border-[var(--color-line)]">
       <div className="mx-auto max-w-6xl px-6 py-24 md:py-32">
         <SectionLabel index="02">Philosophy</SectionLabel>
-        <div className="mt-10 grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
-          <div>
+        <div className="mt-10 grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
+          <div className="order-1 lg:order-2">
             <h2 className="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl">
               Your TV shouldn&apos;t decide how you watch.
             </h2>
@@ -277,14 +269,10 @@ function Philosophy() {
             </ul>
           </div>
 
-          <div className="overflow-hidden rounded-2xl border border-[var(--color-line)] bg-[var(--color-surface)]">
+          <div className="order-2 overflow-hidden rounded-2xl border border-[var(--color-line)] bg-[var(--color-surface)] lg:order-1">
             <img
-              src={placeholder(
-                1000,
-                1100,
-                "DIAGRAM — rear I/O of display showing the modular brain bay, a streaming device sliding into the dock, clean technical line art",
-              )}
-              alt="Technical line-art diagram of the display's rear modular brain bay with a streaming device sliding into the dock."
+              src="/assets/rear-io-brain-bay.png"
+              alt="The rear of the PANE display showing the modular brain bay and I/O."
               className="block w-full"
               loading="lazy"
             />
@@ -303,12 +291,8 @@ function WhyWeExist() {
         <div className="mt-10 grid gap-12 lg:grid-cols-2 lg:items-center">
           <div className="order-2 overflow-hidden rounded-2xl border border-[var(--color-line)] bg-[var(--color-surface)] lg:order-1">
             <img
-              src={placeholder(
-                1200,
-                900,
-                "TIMELINE GRAPHIC — display lifespan spanning a decade while three generations of 'brain' modules swap in and out beneath it",
-              )}
-              alt="Timeline graphic showing a single display lasting a decade while successive generations of brain modules are swapped underneath it."
+              src="/assets/timeline-tv.png"
+              alt="Timeline showing a single PANE display lasting a decade while successive generations of brain modules are swapped underneath it."
               className="block w-full"
               loading="lazy"
             />

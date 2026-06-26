@@ -143,7 +143,7 @@ function TopBar() {
         </nav>
 
         <Link
-          to="/#waitlist"
+          to="/waitlist"
           className="inline-flex items-center rounded-full bg-white px-4 py-2 text-sm font-medium text-black transition-colors hover:bg-zinc-200"
         >
           Join the Waitlist
@@ -177,8 +177,8 @@ const FOOTER_COLS: { title: string; links: FooterLink[] }[] = [
   {
     title: "Connect",
     links: [
-      { label: "Waitlist", to: "/#waitlist" },
-      { label: "Newsletter", to: "/#waitlist" },
+      { label: "Waitlist", to: "/waitlist" },
+      { label: "Newsletter", to: "/waitlist" },
       { label: "Support", to: "/#waitlist" },
       { label: "Contact", to: "/#waitlist" },
     ],

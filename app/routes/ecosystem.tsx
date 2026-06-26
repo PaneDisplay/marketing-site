@@ -352,7 +352,7 @@ function ClosingCta() {
         </p>
         <div className="mt-10 flex justify-center">
           <Link
-            to="/#waitlist"
+            to="/waitlist"
             className="inline-flex items-center justify-center rounded-full bg-white px-7 py-3.5 text-sm font-medium text-black transition-colors hover:bg-zinc-200"
           >
             Join the Waitlist

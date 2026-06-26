@@ -212,7 +212,7 @@ export function CategoryView({ slug }: { slug: string }) {
                 {product.blurb}
               </p>
               <Link
-                to="/#waitlist"
+                to="/waitlist"
                 className="mt-5 inline-flex w-fit items-center rounded-full border border-zinc-700 px-4 py-2 text-sm font-medium text-zinc-200 transition-colors hover:border-zinc-500 hover:text-white"
               >
                 Join the waitlist
