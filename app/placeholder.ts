@@ -1,4 +1,4 @@
-/** placehold.co helper — keeps the brand bg/fg consistent across placeholders.
+/** placehold.co helper - keeps the brand bg/fg consistent across placeholders.
  *  The `label` becomes both the visible text in the image and should be mirrored
  *  in the consuming element's `alt` describing the real asset that belongs there. */
 export function placeholder(width: number, height: number, label: string) {

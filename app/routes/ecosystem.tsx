@@ -4,7 +4,7 @@ import type { Route } from "./+types/ecosystem";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "PANE — The Ecosystem" },
+    { title: "PANE - The Ecosystem" },
     {
       name: "description",
       content:
@@ -48,7 +48,7 @@ function Hero() {
         src={placeholder(
           2600,
           1700,
-          "FULL-BLEED HERO — display mounted on a concrete wall in a dark room, a streaming brain and magnetic speaker bar visible, dramatic side light",
+          "FULL-BLEED HERO - display mounted on a concrete wall in a dark room, a streaming brain and magnetic speaker bar visible, dramatic side light",
         )}
         alt="PANE display mounted on a concrete wall in a dark room with a streaming brain and magnetic speaker bar attached, lit dramatically from the side."
         className="absolute inset-0 h-full w-full object-cover"
@@ -85,7 +85,7 @@ function Statement() {
             a magnetic accessory rail.{" "}
             <span className="text-zinc-500">
               Choose the streaming device, the sound, and the mounts that fit
-              your setup — then swap any of them later without replacing the
+              your setup - then swap any of them later without replacing the
               screen.
             </span>
           </p>
@@ -124,7 +124,7 @@ function BrainSplit() {
               <p className="mt-5 text-lg leading-relaxed text-zinc-400">
                 The brain bay accepts any standard streaming device or your own
                 machine. No forced platform, no mandatory account. When
-                technology changes, swap the brain — not the entire TV.
+                technology changes, swap the brain - not the entire TV.
               </p>
               <ul className="mt-8 grid grid-cols-2 gap-2">
                 {BRAINS.map((brain) => (
@@ -146,14 +146,14 @@ function BrainSplit() {
                 src={placeholder(
                   1300,
                   1000,
-                  "DETAIL — rear brain bay open, a streaming device sliding into the dock, machined aluminum interior, technical lighting",
+                  "DETAIL - rear brain bay open, a streaming device sliding into the dock, machined aluminum interior, technical lighting",
                 )}
                 alt="The display's rear brain bay open with a streaming device sliding into the dock."
                 className="block w-full"
                 loading="lazy"
               />
               <figcaption className="border-t border-[var(--color-line)] px-5 py-3 font-mono text-[11px] uppercase tracking-widest text-zinc-500">
-                Fig. 02a — Standardized brain bay
+                Fig. 02a - Standardized brain bay
               </figcaption>
             </figure>
             <figure className="overflow-hidden rounded-2xl border border-[var(--color-line)] bg-[var(--color-surface)]">
@@ -161,14 +161,14 @@ function BrainSplit() {
                 src={placeholder(
                   1300,
                   820,
-                  "DIAGRAM — line art showing one display outlasting three generations of swappable brain modules over a decade",
+                  "DIAGRAM - line art showing one display outlasting three generations of swappable brain modules over a decade",
                 )}
                 alt="Line-art diagram of one display outlasting three generations of swappable brain modules over a decade."
                 className="block w-full"
                 loading="lazy"
               />
               <figcaption className="border-t border-[var(--color-line)] px-5 py-3 font-mono text-[11px] uppercase tracking-widest text-zinc-500">
-                Fig. 02b — One screen, many brains
+                Fig. 02b - One screen, many brains
               </figcaption>
             </figure>
           </div>
@@ -194,7 +194,7 @@ function RailBleed() {
             </h2>
             <p className="mt-5 text-lg leading-relaxed text-zinc-400">
               A single magnetic connection runs the length of the display. Sound,
-              lighting, cameras — every module shares the same rail, so adding to
+              lighting, cameras - every module shares the same rail, so adding to
               your setup never means starting over. No cables. No brackets. No
               compromises.
             </p>
@@ -212,7 +212,7 @@ function RailBleed() {
             src={placeholder(
               1400,
               1600,
-              "FULL-BLEED — macro of a speaker module snapping onto the magnetic rail, magnets and machined edge in sharp focus, dark studio",
+              "FULL-BLEED - macro of a speaker module snapping onto the magnetic rail, magnets and machined edge in sharp focus, dark studio",
             )}
             alt="Macro photograph of a speaker module snapping onto the magnetic rail, with the magnets and machined edge in sharp focus."
             className="block h-full w-full object-cover"
@@ -251,19 +251,19 @@ const STRIP = [
     name: "TV",
     note: "The modular display",
     image:
-      "CATEGORY — PANE display front-on, thin machined bezel, dark backdrop",
+      "CATEGORY - PANE display front-on, thin machined bezel, dark backdrop",
   },
   {
     to: "/products/sound",
     name: "Sound",
     note: "Magnetic speaker systems",
-    image: "CATEGORY — magnetic speaker bar, perforated grille, three-quarter",
+    image: "CATEGORY - magnetic speaker bar, perforated grille, three-quarter",
   },
   {
     to: "/products/accessories",
     name: "Accessories",
     note: "Cables, mounts & the rail",
-    image: "CATEGORY — flat lay of cables, mount hardware and rail extension",
+    image: "CATEGORY - flat lay of cables, mount hardware and rail extension",
   },
 ];
 
@@ -335,7 +335,7 @@ function ClosingCta() {
         src={placeholder(
           2600,
           1300,
-          "FULL-BLEED — wide shot of the display in a finished living room at dusk, warm and cool light, hardware as the focal point",
+          "FULL-BLEED - wide shot of the display in a finished living room at dusk, warm and cool light, hardware as the focal point",
         )}
         alt="Wide shot of the PANE display in a finished living room at dusk with the hardware as the focal point."
         className="absolute inset-0 h-full w-full object-cover"
@@ -347,7 +347,7 @@ function ClosingCta() {
           One screen. Every ecosystem.
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-zinc-300">
-          Join the waitlist to be first in line when the modular display ships —
+          Join the waitlist to be first in line when the modular display ships -
           and help shape which modules we build next.
         </p>
         <div className="mt-10 flex justify-center">

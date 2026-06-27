@@ -3,7 +3,7 @@ import type { Route } from "./+types/sound";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "PANE — Sound" },
+    { title: "PANE - Sound" },
     {
       name: "description",
       content:

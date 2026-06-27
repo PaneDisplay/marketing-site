@@ -3,7 +3,7 @@ import type { Route } from "./+types/accessories";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "PANE — Accessories" },
+    { title: "PANE - Accessories" },
     {
       name: "description",
       content:

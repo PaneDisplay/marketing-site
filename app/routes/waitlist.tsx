@@ -3,16 +3,16 @@ import type { Route } from "./+types/waitlist";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Join the Waitlist — PANE" },
+    { title: "Join the Waitlist - PANE" },
     {
       name: "description",
       content:
-        "Join the PANE waitlist to be first in line when the modular display ships — and help shape what we build next.",
+        "Join the PANE waitlist to be first in line when the modular display ships - and help shape what we build next.",
     },
   ];
 }
 
-// Dummy waitlist action — does not persist anything yet. Wire to a real
+// Dummy waitlist action - does not persist anything yet. Wire to a real
 // store later. On success we redirect to the confirmation page so the
 // user gets clear next steps for verifying their email.
 export async function action({ request }: Route.ActionArgs) {
@@ -42,7 +42,7 @@ export default function Waitlist({ actionData }: Route.ComponentProps) {
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-zinc-400">
               Join the waitlist to be first in line when the modular display
-              ships — and help shape what we build next.
+              ships - and help shape what we build next.
             </p>
 
             <Form

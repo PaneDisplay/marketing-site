@@ -3,7 +3,7 @@ import type { Route } from "./+types/waitlist-confirmed";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Confirm your email — PANE" },
+    { title: "Confirm your email - PANE" },
     {
       name: "description",
       content:
@@ -21,7 +21,7 @@ const STEPS = [
   {
     title: "Check your inbox",
     detail:
-      "We just sent a confirmation email. It usually lands within a minute — peek in spam or promotions if you don't see it.",
+      "We just sent a confirmation email. It usually lands within a minute - peek in spam or promotions if you don't see it.",
   },
   {
     title: "Click “Confirm my email”",
@@ -31,7 +31,7 @@ const STEPS = [
   {
     title: "Get instant access to the discussion board",
     detail:
-      "The moment you confirm, you're in our exclusive community — where we share product insights and launch timelines first.",
+      "The moment you confirm, you're in our exclusive community - where we share product insights and launch timelines first.",
   },
 ];
 

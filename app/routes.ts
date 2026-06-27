@@ -11,12 +11,12 @@ export default [
     index("routes/home.tsx"),
     route("ecosystem", "routes/ecosystem.tsx"),
 
-    // Dedicated waitlist flow — sign up, then a confirmation page with
+    // Dedicated waitlist flow - sign up, then a confirmation page with
     // email-verification instructions.
     route("waitlist", "routes/waitlist.tsx"),
     route("waitlist/confirmed", "routes/waitlist-confirmed.tsx"),
 
-    // Catalog area — a completely different inner layout (sidebar + grid).
+    // Catalog area - a completely different inner layout (sidebar + grid).
     route("products", "routes/products/layout.tsx", [
       index("routes/products/index.tsx"),
       route("tv", "routes/products/tv.tsx"),

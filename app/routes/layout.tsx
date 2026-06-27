@@ -2,7 +2,7 @@ import { Link, NavLink, Outlet } from "react-router";
 import { CATEGORIES } from "../catalog";
 
 const PRODUCT_BLURBS: Record<string, string> = {
-  tv: "The modular display — 45/55/65″ in 2K, 4K, or 8K.",
+  tv: "The modular display - 45/55/65″ in 2K, 4K, or 8K.",
   sound: "Magnetic speaker systems. Standard and Pro.",
   "smart-products": "Optional brains and connected modules.",
   accessories: "Cables, mounts, and the magnetic rail.",
@@ -55,9 +55,9 @@ export function Wordmark({ className = "" }: { className?: string }) {
     <Link
       to="/"
       className={`group inline-flex items-center gap-2.5 ${className}`}
-      aria-label="PANE — home"
+      aria-label="PANE - home"
     >
-      {/* Display glyph — a screen, the part that's "forever" */}
+      {/* Display glyph - a screen, the part that's "forever" */}
       <span className="grid h-6 w-6 place-items-center rounded-[5px] border border-zinc-700 transition-colors group-hover:border-zinc-400">
         <span className="h-2 w-2.5 rounded-[1px] bg-zinc-300 transition-colors group-hover:bg-white" />
       </span>
@@ -193,7 +193,7 @@ function SiteFooter() {
           <div className="max-w-sm space-y-4">
             <Wordmark />
             <p className="text-sm leading-relaxed text-zinc-500">
-              We make displays — not data collection devices. The screen is
+              We make displays - not data collection devices. The screen is
               forever. Everything else is upgradeable.
             </p>
           </div>
@@ -223,7 +223,7 @@ function SiteFooter() {
 
         <div className="mt-12 flex flex-col gap-3 border-t border-[var(--color-line)] pt-6 text-xs text-zinc-600 sm:flex-row sm:items-center sm:justify-between">
           <p className="font-mono uppercase tracking-widest">
-            © 2026 PANE — Engineered, not marketed
+            © 2026 PANE - Engineered, not marketed
           </p>
           <p className="font-mono uppercase tracking-widest">
             No accounts · No ads · No lock-in
